@@ -106,7 +106,7 @@ t:hover{
     color:rgb(119, 198, 0);
 
 }
-@media screen and (max-width:756px) {
+@media screen and (max-width:495px) {
     .container{
         flex-direction: column;
     }
