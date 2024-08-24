@@ -1,0 +1,116 @@
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.art{
+    font-size: 24px !important;
+    line-height: 1.5;
+    font-weight: 50;
+    margin-right: 10px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+.art:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 80px;
+    width: auto;
+    border: 10px;
+    background-color: rgb(176, 170, 170);
+    padding: 5px 10px 5px 10px;
+    padding-top: 0px;
+
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+
+
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    width: 49.99999%;
+    float: left;
+}
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+.boy {
+    max-width: 100%;
+    height: auto;
+}
+
+.boy1 {
+    display: block;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: "Raleway", Arial, sans-serif;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    width: 50%;
+
+}
+
+.para {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pink {
+    color: rgb(255, 0, 136);
+    font-size: 18px !important;
+}
+.form-name{
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+
+}
+.but{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-family: "Raleway", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 100, 101);
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+t:hover{
+    cursor: auto;
+    color:rgb(119, 198, 0);
+
+}
+@media screen and (max-width:756px) {
+    .container{
+        flex-direction: column;
+    }
+   .row1{   
+    width: 100%;
+    }
+}
